@@ -1,1 +1,7 @@
+title: My Azure 204 Website
+description: This is my Jekyll website for Azure 204 course.
+url: "https://adityakrmaurya.github.io/azure-204" # the base hostname & protocol for your site, modify this based on your repository URL
+
 remote_theme: poole/lanyon
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
