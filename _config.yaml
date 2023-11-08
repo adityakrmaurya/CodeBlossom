@@ -1,0 +1,85 @@
+# Site settings
+title: My Jekyll Website
+description: This is my awesome Jekyll website.
+baseurl: "" # the subpath of your site, e.g., /blog/
+url: "https://example.com" # the base hostname & protocol for your site
+
+# Build settings
+theme: jekyll-theme-minimal # You can change the theme here
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# Exclude files/folders from the build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - _site
+  - .git
+  - .sass-cache
+
+# Pagination
+paginate: 5 # Number of posts per page
+
+# Navigation links
+navbar_links:
+  - text: Home
+    url: /
+  - text: About
+    url: /about
+  - text: Contact
+    url: /contact
+
+# Social media links
+social:
+  twitter: your_twitter_username
+  github: your_github_username
+
+# Customize the Jekyll SEO Tag plugin
+seo:
+  type: website
+  title: My Jekyll Website
+  description: This is my awesome Jekyll website.
+  image: /path/to/your/logo.png
+  twitter:
+    username: your_twitter_username
+  lang: en
+
+# Google Analytics
+google_analytics: UA-XXXXXXXXX-1
+
+# Disqus comments
+disqus:
+  shortname: your_disqus_shortname
+
+# Default layout for posts/pages
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Development settings
+sass:
+  style: compressed # Options: nested, expanded, compact, compressed
+
+# Environment-specific configuration
+production:
+  # Production-specific settings
+  # ...
+
+development:
+  # Development-specific settings
+  # ...
