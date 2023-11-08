@@ -4,4 +4,4 @@ url: "https://adityakrmaurya.github.io/azure-204" # the base hostname & protocol
 
 remote_theme: poole/lanyon
 plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
