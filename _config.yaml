@@ -83,6 +83,8 @@ footer:
 # Reading Files
 include:
   - .htaccess
+  - _page
+  - _azure-204
 exclude:
   - vendor
   - .asset-cache
@@ -147,6 +149,9 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
+  azure-204:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -181,6 +186,19 @@ defaults:
       comments: false
       sidebar:
         nav: "docs"
+# _azure-204
+  - scope:
+      path: "azure-204"
+      type: docs
+    values:
+      layout: single
+      read_time: true
+      author_profile: false
+      share: true
+      comments: false
+      sidebar:
+        nav: "azure-204"
+        
   # _recipes
   - scope:
       path: ""
