@@ -84,6 +84,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - index.html
 exclude:
   - vendor
   - .asset-cache
@@ -105,6 +106,7 @@ exclude:
   - package.json
   - Rakefile
   - tmp
+  - README.md
 keep_files:
   - .git
   - .svn
