@@ -12,7 +12,7 @@ main:
   #   url: /terms/
 
 # documentation links
-azure:
+azure-204:
   - title: Getting Started
     children:
       - title: "Introduction"
