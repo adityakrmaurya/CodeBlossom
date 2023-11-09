@@ -8,7 +8,7 @@ title                    : "Code Blossom"
 title_separator          : "-"
 subtitle                 : "Blossoming Code, Cultivating Ideas"
 name                     : &name "Aditya Kumar Maurya" # &name is a YAML anchor which can be *referenced later
-description              : &description "🌸 CodeBlossom: Where programming blooms into elegant solutions! Explore the vibrant world of coding, innovation, and creativity. 🚀 Join us as we cultivate ideas, nurture innovation, and share the sweet fragrance of successful projects. Dive into a garden of tech tutorials, coding tips, and software development insights. Let your code flourish like never before! 🌱💻✨ #CodeBlossom #InnovationInCode"
+description              : &description "Where programming blooms into elegant solutions! Explore the vibrant world of coding, innovation, and creativity. 🚀 Join us as we cultivate ideas, nurture innovation, and share the sweet fragrance of successful projects. Dive into a garden of tech tutorials, coding tips, and software development insights. Let your code flourish like never before! 🌱💻✨ #CodeBlossom #InnovationInCode"
 url                      : https://adityakrmaurya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/code_blossom" # the subpath of your site, e.g. "/blog"
 repository               : "adityakrmaurya/code_blossom"
