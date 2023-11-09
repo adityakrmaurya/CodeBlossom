@@ -3,14 +3,10 @@ layout: splash
 permalink: /
 hidden: true
 header:
-  overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
-  actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
-excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  overlay_color: "#282828"
+  overlay_image: https://images.unsplash.com/photo-1419640303358-44f0d27f48e7?q=80&w=1985&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+excerpt: >-
+  "Welcome to CodeBlossom, where lines of code transform into vibrant petals of innovation! 🌸 Dive into a world where programming meets creativity, and ideas bloom into remarkable projects. Join our community of developers and tech enthusiasts as we nurture skills, share insights, and explore the endless possibilities of coding. Let your creativity flourish and your code blossom at CodeBlossom. Happy coding! 🚀✨ #CodeBlossom #InnovationInCode"
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
