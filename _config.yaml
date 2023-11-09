@@ -35,7 +35,6 @@ lunr:
   search_within_pages: true
   search_full_content: true
   files_to_exclude:
-    - _posts/2017-11-28-post-exclude-search.md
 
 # SEO Related
 google_site_verification : "" # Replace this with your ID, or delete
@@ -93,8 +92,6 @@ include:
   - .htaccess
   - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
   - vendor
   - .asset-cache
   - .bundle
