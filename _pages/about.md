@@ -10,11 +10,9 @@ toc: true
 
 Welcome to CodeBlossom, where programming expertise meets creative innovation! Our mission is to empower developers and tech enthusiasts with valuable knowledge, inspiring ideas, and hands-on tutorials. 
 
-![CodeBlossom Team](https://unsplash.com/photos/brown-and-white-pomeranian-puppy-on-macbook-siNDDi9RpVY)
-
 ## Meet the Team
 
-### John Doe
+### Aditya Kumar Maurya
 Software Developer
 ![Aditya Kumar Maurya](https://avatars.githubusercontent.com/u/42384542?v=4)
 
