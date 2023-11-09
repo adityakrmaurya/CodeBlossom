@@ -106,7 +106,8 @@ exclude:
   - package.json
   - Rakefile
   - tmp
-  - README.md
+  - /docs # ignore Minimal Mistakes /docs
+  - /test # ignore Minimal Mistakes /test
 keep_files:
   - .git
   - .svn
