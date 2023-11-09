@@ -10,7 +10,7 @@ subtitle                 : "Blossoming Code, Cultivating Ideas"
 name                     : &name "Aditya Kumar Maurya" # &name is a YAML anchor which can be *referenced later
 description              : &description "Where programming blooms into elegant solutions! Explore the vibrant world of coding, innovation, and creativity. 🚀 Join us as we cultivate ideas, nurture innovation, and share the sweet fragrance of successful projects. Dive into a garden of tech tutorials, coding tips, and software development insights. Let your code flourish like never before! 🌱💻✨ #CodeBlossom #InnovationInCode"
 url                      : https://adityakrmaurya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/code_blossom" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/code_blossom/_pages/index.html" # the subpath of your site, e.g. "/blog"
 repository               : "adityakrmaurya/code_blossom"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
