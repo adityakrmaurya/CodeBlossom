@@ -15,10 +15,10 @@ title                    : "Code Blossom"
 title_separator          : "-"
 subtitle                 : "Blossoming Code, Cultivating Ideas"
 name                     : &name "Aditya Kumar Maurya" # &name is a YAML anchor which can be *referenced later
-description              : &description "🚀 Dive into comprehensive AZ-204 Exam notes and interactive modules for a confident and efficient preparation journey! 📚💻 #AzureDeveloper"
+description              : &description ""🌸 CodeBlossom: Where programming blooms into elegant solutions! Explore the vibrant world of coding, innovation, and creativity. 🚀 Join us as we cultivate ideas, nurture innovation, and share the sweet fragrance of successful projects. Dive into a garden of tech tutorials, coding tips, and software development insights. Let your code flourish like never before! 🌱💻✨ #CodeBlossom #InnovationInCode""
 url                      : https://adityakrmaurya.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/azure-204" # the subpath of your site, e.g. "/blog"
-repository               : "adityakrmaurya/azure-204"
+baseurl                  : "/code_blossom" # the subpath of your site, e.g. "/blog"
+repository               : "adityakrmaurya/code_blossom"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
