@@ -83,7 +83,6 @@ footer:
 # Reading Files
 include:
   - .htaccess
-  - _azure-204
 exclude:
   - vendor
   - .asset-cache
@@ -187,7 +186,7 @@ defaults:
         nav: "docs"
 # _azure-204
   - scope:
-      path: "_azure-204"
+      path: azure-204/
       type: docs
     values:
       layout: single
