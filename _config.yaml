@@ -133,23 +133,6 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-
-# Defaults
-defaults:
-# _azure-204
-  - scope:
-      path: ""
-      type: docs
-    values:
-      layout: single
-      read_time: true
-      author_profile: true
-      share: true
-      comments: false
-      sidebar:
-        nav: azure-204
-
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
