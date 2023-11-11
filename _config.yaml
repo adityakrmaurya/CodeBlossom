@@ -82,7 +82,7 @@ footer:
 
 # Reading Files
 include:
-  - azure-204
+  - _azure-204
 
 exclude:
   - LICENSE
@@ -143,11 +143,11 @@ defaults:
     values:
       layout: single
       read_time: true
-      author_profile: false
+      author_profile: true
       share: true
       comments: false
       sidebar:
-        nav: azure-2
+        nav: azure-204
 
 
 # Sass/SCSS
