@@ -61,7 +61,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/adityakrmaurya"
     - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/adityakrmaurya"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -74,7 +74,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/adityakrmaurya"
     - label: "LinkedIn"
-      icon: "fa-brands fa-linkedin-in"
+      icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/adityakrmaurya"
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -156,7 +156,7 @@ defaults:
       author_profile: true
 # _azure-204
   - scope:
-      path: ""
+      path: "azure-204"
       type: azure-204
     values:
       layout: single
@@ -164,7 +164,6 @@ defaults:
       author_profile: false
       share: true
       comments: false
-      toc: true
       sidebar:
         nav: azure-204
   # _recipes
