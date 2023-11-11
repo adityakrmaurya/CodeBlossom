@@ -82,6 +82,7 @@ footer:
 
 # Reading Files
 include:
+  - azure-204
 
 exclude:
   - LICENSE
@@ -155,7 +156,7 @@ defaults:
       author_profile: true
 # _azure-204
   - scope:
-      path: "azure-204"
+      path: ""
       type: azure-204
     values:
       layout: single
