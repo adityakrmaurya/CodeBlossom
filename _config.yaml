@@ -136,24 +136,6 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
 # _azure-204
   - scope:
       path: ""
@@ -165,33 +147,7 @@ defaults:
       share: true
       comments: false
       sidebar:
-        nav: azure-204
-  # _recipes
-  - scope:
-      path: ""
-      type: recipes
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
-  # _pets
-  - scope:
-      path: ""
-      type: pets
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: false
-      share: true
+        nav: azure-2
 
 
 # Sass/SCSS
