@@ -16,4 +16,4 @@ azure-204:
   - title: Getting Started
     children:
       - title: "Introduction"
-        url: /azure-204/introduction/
+        url: /azure-204/introduction
