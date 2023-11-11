@@ -5,6 +5,13 @@ excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub 
 last_modified_at: 2021-06-07T08:48:05-04:00
 toc: true
 toc_label: "Page Index"
+layout: single
+read_time: true
+author_profile: false
+share: true
+comments: false
+sidebar:
+   nav: azure-204
 ---
 
 Minimal Mistakes has been developed as a [Gem-based theme](http://jekyllrb.com/docs/themes/) for easier use, and 100% compatible with GitHub Pages when used as a remote theme.
