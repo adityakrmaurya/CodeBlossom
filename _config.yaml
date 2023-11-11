@@ -186,7 +186,7 @@ defaults:
         nav: "docs"
 # _azure-204
   - scope:
-      path: azure-204/
+      path: /azure-204/
       type: docs
     values:
       layout: single
