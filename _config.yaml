@@ -127,7 +127,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  azure-204:
+  cloud:
     output: true
     permalink: /:collection/:path/
 
