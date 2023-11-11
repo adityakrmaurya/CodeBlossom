@@ -82,7 +82,7 @@ footer:
 
 # Reading Files
 include:
-  - _azure-204
+  - _azure-204/
 
 exclude:
   - LICENSE
