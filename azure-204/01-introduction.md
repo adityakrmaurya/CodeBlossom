@@ -3,9 +3,10 @@ title: "Quick-Start Guide"
 permalink: /azure-204/introduction/
 excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
 last_modified_at: 2021-06-07T08:48:05-04:00
-redirect_from:
-  - /theme-setup/
 toc: true
+toc_label: "Page Index"
+sidebar:
+  nav: azure-204
 ---
 
 Minimal Mistakes has been developed as a [Gem-based theme](http://jekyllrb.com/docs/themes/) for easier use, and 100% compatible with GitHub Pages when used as a remote theme.
@@ -188,31 +189,3 @@ From `v4.5.0` onwards, the default language files are read-in automatically via 
 If you customized any of these files leave them alone, and only remove the untouched ones. If done correctly your modified versions should [override](https://jekyllrb.com/docs/themes/#overriding-theme-defaults) the versions bundled with the theme and be used by Jekyll instead.
 
 #### Update Gemfile
-
-Replace `gem "github-pages` or `gem "jekyll"` with `gem "jekyll", "~> 3.5"`. You'll need the latest version of Jekyll[^update-jekyll] for Minimal Mistakes to work and load all of the theme's assets properly, this line forces Bundler to do that.
-
-[^update-jekyll]: You could also run `bundle update jekyll` to update Jekyll.
-
-Add the Minimal Mistakes theme gem: 
-
-```ruby
-gem "minimal-mistakes-jekyll"
-```
-
-When finished your `Gemfile` should look something like this:
-
-```ruby
-source "https://rubygems.org"
-
-gem "jekyll", "~> 3.7"
-gem "minimal-mistakes-jekyll"
-```
-
-Then run `bundle update` and add `theme: minimal-mistakes-jekyll` to your `_config.yml`.
-
-**v4 Breaking Change:** Paths for image headers, overlays, teasers, [galleries]({{ "/docs/helpers/#gallery" | relative_url }}), and [feature rows]({{ "/docs/helpers/#feature-row" | relative_url }}) have changed and now require a full path. Instead of just `image: filename.jpg` you'll need to use the full path eg: `image: /assets/images/filename.jpg`. The preferred location is now `/assets/images/` but can be placed elsewhere or externally hosted. This applies to image references in `_config.yml` and `author.yml` as well.
-{: .notice--danger}
-
----
-
-That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site.
