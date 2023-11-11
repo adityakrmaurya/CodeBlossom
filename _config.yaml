@@ -214,7 +214,7 @@ defaults:
       author_profile: true
   # _docs
   - scope:
-      path: "azure"
+      path: ""
       type: docs
     values:
       layout: single
@@ -222,8 +222,6 @@ defaults:
       author_profile: false
       share: false
       comments: false
-      sidebar:
-        nav: "azure204"
   # _recipes
   - scope:
       path: ""
