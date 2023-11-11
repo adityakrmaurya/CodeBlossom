@@ -156,8 +156,8 @@ defaults:
       author_profile: true
 # _azure-204
   - scope:
-      path: "azure-204"
-      type: azure-204
+      path: ""
+      type: docs
     values:
       layout: single
       read_time: true
